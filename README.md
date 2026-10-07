@@ -19,7 +19,8 @@ The codebase is structured to separate mathematical modeling from visualization 
 * `src/joukowski_transform.m`: Discretizes geometry and applies conformal mapping.
 * `src/solve_potential_flow.m`: Computes complex potential, velocity, and surface pressure coefficients.
 * `src/compute_aerodynamics.m`: Integrates pressure distributions for moment coefficients and locates stagnation points.
-* `src/visualize_results.m` (and sub-functions): Generates flow field dashboards and aerodynamic curves.
+* `src/plot_flow_dashboard.m`: Generates the detailed flow field and pressure contour dashboards for specific angles of attack.
+* `src/plot_aerodynamic_curves.m`: Plots the final lift, moment, and stagnation trajectory curves.
 
 ## How to Run
 1. Clone the repository to your local machine.
